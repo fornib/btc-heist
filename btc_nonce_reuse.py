@@ -1,6 +1,7 @@
 """ Calculate btc private key if nonce is reused in a transaction
     Solving curve: y^2 = x^3 + 7
-"""
+    https://strm.sh/studies/bitcoin-nonce-reuse-attack/
+""" 
 from datetime import datetime
 from itertools import count
 import gmpy2
